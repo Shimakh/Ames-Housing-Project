@@ -30,22 +30,24 @@ The problem is to predict the final each home saleprice for the test dataset wit
 error.
 
 
-Using correlation and one hot encoding we find the most important variables. Then we use clustering to 
+Using correlation and one hot encoding we find the most important variables. Then we try different models around those variable  
+
+to see which one work the best. 
 
 
-make our model around those variable.
+This data set provides an opportunity to compare the effectiveness of various modeling approaches for regression models.
 
 
 ## Solution
 
 
-As our model we use clustering.
+We use different models and the compare the result.
 
 
 ## Benchmark
 
 
-A naive benchmark would be the the mean and the median oof the sale price.
+A naive benchmark would be the the mean and the median of the sale price.
 
 
 ## Performance Metric
@@ -54,7 +56,7 @@ A naive benchmark would be the the mean and the median oof the sale price.
 It is best to use F1 score as our performance metric. The F1 score conveys the balance between the 
 
 
-precision and the recall
+precision and the recall.
 
 
 
